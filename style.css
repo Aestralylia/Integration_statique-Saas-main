@@ -1,0 +1,337 @@
+body {
+    /* background-color: #00218F; */
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color : white;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    margin: 0px;
+}
+
+/* main_menu list */
+ul {
+    list-style-type: none;
+    padding:  0px;
+    margin: 0px;
+}
+
+ul li {
+    display: inline-block;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* HOVER */
+a:hover {
+    color: rgb(0, 132, 255);
+}
+
+.authentification a:hover, .try_and_watch_button a:hover {
+    background-color: white;
+}
+/* FIN HOVER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.main_logo {
+    display: inline-block;
+}
+
+.main_menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_menu a { 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.authentification {
+    display: inline-block;
+}
+
+.authentification a {
+    line-height: 60px;
+}
+
+.authentification a, .try_and_watch_button a{
+    border : 1px solid white;
+    border-radius: 10px;
+
+    padding-left: 45px;
+    padding-right: 45px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login_button {
+    margin-right: 10px;
+}
+
+.main_slogan {
+    font-size: 47px;
+    margin-top: 150px;
+}
+
+.second_slogan {
+    font-size: 12px;
+    margin-top: 60px;
+}
+
+.try_and_watch_button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.try_button {
+    margin-right: 25px;
+}
+
+.main_dashboard {
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard_picture
+, .servicenow_logo, .paychex_solo, .github_logo, .stripe_logo, .zendesk_logo {
+/*, .finance_security_div, .synchronization_div, .cloud_drive_div, .file_sharing_div {*/
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer {
+    background-color: white;
+}
+
+.bandeau_partenaire
+, .our_solution_dashboard {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.our_solution_slogan {
+    margin-top: 150px;
+}
+
+.our_solution_first_sentence {
+    font-size: 27px;
+    color: rgb(58, 58, 221);
+}
+
+.our_solution_second_sentence {
+    font-size: 10px;
+    color: grey;
+}
+
+.our_solution_dashboard_bloc  {
+    border : 1px solid grey;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    
+    padding: 35px;
+    margin : 1  5px;
+}
+
+.our_solution_dashboard_main_subject {
+    color: black;
+    margin-top: 30px;
+    text-align: start;
+}
+
+.our_solution_dashboard_all_information {
+    color: grey;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    text-align: start;
+}
+
+.our_solution_dashboard_learn_more {
+    color: rgb(100, 100, 220);
+    display: block;
+}
+
+.easy_people_tried_and_dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    margin-top: 225px;
+    margin-bottom: 120px;
+   }
+   
+.easy_people_tried {
+    background-color: rgb(225, 219, 219,0.5);
+    padding-left: 120px;
+    padding-right: 110px;
+    padding-top: 60px;
+}
+
+.easy_collaborative_first_sentence {
+    color: blue;
+    text-align: start;
+    font-size: 40px;
+}
+
+.easy_collaborative_second_sentence {
+    color: grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: start;
+}
+
+.easy_collaborative_third_sentence {
+    display: inline;
+}
+
+.tried {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.people_tried {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.try_for_free_div {   
+    margin-top: 50px;
+}
+
+.try_for_free{
+    border : 1px solid cornflowerblue;
+    border-radius: 10px;
+
+    padding-left: 45px;
+    padding-right: 45px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin: 10px;
+
+    color: white;
+    background-color: blue;
+    display: inline-block;
+}
+
+.deux {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+}
+
+.trois {
+    color: grey;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.quatre {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.checkbox {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.cinq {
+    margin-top: 35px;
+    margin-bottom: 170px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.grounddesk_loved_section {
+    padding-left: 30px;
+}
+
+.grounddesk_is_loved_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grounddesk_is_loved_sentance {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+}
+
+.previous_page {
+    margin-right: 50px;
+}
+
+.comment_div_global {
+    display: flex;
+    justify-content: center;
+}
+
+.comment_div {
+    border : 1px solid black;
+    border-radius: 10px;
+
+    background-color: white;
+    margin: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.name {
+    padding-left: 20px;
+}
+
+.block {
+    display: block;
+}
+
+.role {
+    color: gray;
+    display: block;
+    padding-top: 15px;
+}
+
+.comment {
+    color: grey;
+    text-align: start;
+}
+
+.notation {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
