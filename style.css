@@ -261,13 +261,123 @@ a:hover {
 }
 
 .cinq {
-    margin-top: 35px;
+    margin-top: 23px;
     margin-bottom: 170px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+
+    padding-left: 110px;
+    padding-right: 110px;
 }
+
+
+.six {
+    border : 1px solid black;
+    border-radius: 10px;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 60px;
+    padding-bottom: 38px;
+
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.six:hover {
+    background-color: blue;
+}
+
+.six:hover span
+{
+    color: white;
+}
+
+.six:hover i,
+.six:hover a
+{
+    background-color: white;
+}
+
+.six:hover a
+{
+    color: blue;
+}
+
+.standart {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+}
+
+.national_average {
+    color: grey;
+    text-align: center;
+    display: block;
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.price {
+    text-align: center;
+    display: block;
+}
+
+.dollard_5 {
+    color: blue;
+    font-size: 50px;
+}
+
+.per_month {
+    color: grey;
+}
+
+.select_plan {
+    border : 1px solid cornflowerblue;
+    border-radius: 10px;
+
+    padding-left: 45px;
+    padding-right: 45px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: white;
+    background-color: blue;
+
+    display: block;
+    text-align: center;
+
+    margin-top: 45px;
+    margin-bottom: 38px;
+}
+
+.block_price {
+    /* text-align: center; */
+    display: block;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.check_price_list {
+    border : 1px solid black;
+    border-radius: 50%;
+
+    width: 20px;
+    height: 20px;
+
+    text-align: center;
+    vertical-align: center;
+    line-height: 20px;
+}
+
 
 .grounddesk_loved_section {
     padding-left: 30px;
