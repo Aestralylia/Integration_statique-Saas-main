@@ -42,6 +42,7 @@ a:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 12px;
+    align-items: center;
 }
 
 .main_logo {
@@ -86,6 +87,11 @@ a:hover {
     margin-top: 150px;
 }
 
+.business {
+    color: rgb(61, 210, 210);
+    text-decoration: underline;
+}
+
 .second_slogan {
     font-size: 12px;
     margin-top: 60px;
@@ -127,13 +133,12 @@ a:hover {
     margin-top: 80px;
 }
 
-.our_solution_slogan {
-    margin-top: 150px;
-}
-
 .our_solution_first_sentence {
     font-size: 27px;
     color: rgb(58, 58, 221);
+    
+    margin-top: 150px;
+    margin-bottom: 40px;
 }
 
 .our_solution_second_sentence {
@@ -151,10 +156,29 @@ a:hover {
     margin : 1  5px;
 }
 
+.our_solution_dashboard_bloc:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+.our_solution_dashboard_bloc:hover
+, .our_solution_dashboard_bloc:hover p {
+/* , .our_solution_dashboard_bloc:hover a { */
+    color: white;
+}
+
+.our_solution_dashboard_bloc:hover a {
+    color: white;
+    font-size: 18px;
+}
+
 .our_solution_dashboard_main_subject {
     color: black;
     margin-top: 30px;
     text-align: start;
+
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .our_solution_dashboard_all_information {
@@ -167,6 +191,7 @@ a:hover {
 .our_solution_dashboard_learn_more {
     color: rgb(100, 100, 220);
     display: block;
+    text-decoration: underline;
 }
 
 .easy_people_tried_and_dashboard {
@@ -202,15 +227,20 @@ a:hover {
     display: inline;
 }
 
-.tried {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
 .people_tried {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: start;
+}
+
+.margin_neg_people_tried {
+    margin-left:  -10px;
+}
+
+.tried {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .try_for_free_div {   
@@ -232,6 +262,10 @@ a:hover {
     color: white;
     background-color: blue;
     display: inline-block;
+}
+
+.try_for_free:hover {
+    background-color: white;
 }
 
 .deux {
@@ -290,6 +324,7 @@ a:hover {
 
 .six:hover {
     background-color: blue;
+    transition: 1s;
 }
 
 .six:hover span
@@ -297,14 +332,14 @@ a:hover {
     color: white;
 }
 
-.six:hover i,
-.six:hover a
+.six:hover i
 {
     background-color: white;
 }
 
 .six:hover a
 {
+    background-color: white;
     color: blue;
 }
 
@@ -329,7 +364,7 @@ a:hover {
     display: block;
 }
 
-.dollard_5 {
+.dollard {
     color: blue;
     font-size: 50px;
 }
@@ -378,9 +413,17 @@ a:hover {
     line-height: 20px;
 }
 
+.cross_check {
+    background-color: grey;
+}
+
+.text_deco_barre {
+text-decoration: line-through;
+}
 
 .grounddesk_loved_section {
     padding-left: 30px;
+    margin-bottom: 170px;
 }
 
 .grounddesk_is_loved_div {
@@ -444,4 +487,47 @@ a:hover {
 .notation {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(214, 211, 211);   
+    padding: 0 120px;
+}
+
+
+.footer_part_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_part_one_one {
+    min-width: 320px;
+}
+
+.manage_easily {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.footer_part_one_two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.li_bold {
+    font-weight: bold;
+}
+
+.li_footer {
+    width: 100%;
+}
+
+.all_right {
+    color: grey;
+}
+/* TEMP */
+.header
+, .try_and_watch_button {
+    background-color: blue;
 }
